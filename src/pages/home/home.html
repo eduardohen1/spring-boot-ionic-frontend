@@ -4,14 +4,14 @@
   
   <form>
     <ion-item>
-      <ion-lable stacked>E-mail</ion-lable>
+      <ion-label stacked>E-mail</ion-label>
       <ion-input type="text"></ion-input>
     </ion-item>
     <ion-item>
-      <ion-lable stacked>Senha</ion-lable>
+      <ion-label stacked>Senha</ion-label>
       <ion-input type="password"></ion-input>
     </ion-item>
-    <button ion-button block>Entrar</button>
+    <button ion-button block (click)="login()">Entrar</button>
   </form>
   <button ion-button block outline>Registrar</button>
 </ion-content>
