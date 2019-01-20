@@ -1,1 +1,5 @@
 ionic server para startar o ionic
+
+ionic cordova platform add browser --save
+ ionic cordova plugin add cordova-plugin-camera
+ npm install --save @ionic-native/camera
