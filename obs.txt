@@ -10,3 +10,11 @@ para testar com cordova:
 
 endereço heroku
 https://cursospringionic201810.herokuapp.com/
+
+
+Nota - como baixar o projeto de um repositório Git
+Checklist:
+ npm install
+ ionic cordova platform add browser --save
+ ionic cordova platform add android --save
+(às vezes acontece erro de conexão nos comandos do cordova - tentar novamente)
